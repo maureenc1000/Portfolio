@@ -3,10 +3,10 @@ The goal is to analyze historical data, build a predictive model, visualize tren
 
 The project uses common data science libraries to perform:
 
-Data loading and preprocessing
-Time series modeling
-Forecast generation
-Visualization
-Model evaluation using error metrics
+- Data loading and preprocessing
+- Time series modeling
+- Forecast generation
+- Visualization
+- Model evaluation using error metrics
 
 This approach is particularly useful for seasonal or trend-based time series datasets, such as sales forecasting, demand planning, financial metrics, or operational metrics.
