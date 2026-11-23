@@ -1,0 +1,101 @@
+Rank,CityState,ZipCode,Population,Per CapitaIncome,City,State
+1,Montchanin Delaware,19710,68,654485,Montchanin,DE
+2,Houston Texas,77010,76,283189,Houston,TX
+3,Rockland Delaware,19732,77,279424,Rockland,DE
+4,Miami Beach Florida,33109,467,236238,Miami Beach,FL
+5,Pineland Florida,33945,79,162075,Pineland,FL
+6,Esopus New York,12429,51,155540,Esopus,NY
+7,Henderson Nevada,89012,175,148899,Henderson,NV
+8,Atherton California,94027,6857,114359,Atherton,CA
+9,Boca Grande Florida,33921,1500,107297,Boca Grande,FL
+10,Deer Harbor Washington,98243,141,107173,Deer Harbor,WA
+11,Rancho Santa Fe California,92067,7601,104487,Rancho Santa Fe,CA
+12,Palm Beach Florida,33480,11200,104294,Palm Beach,FL
+13,Indianapolis Indiana,46290,189,103347,Indianapolis,IN
+14,Kenilworth Illinois,60043,2617,99087,Kenilworth,IL
+15,Beverly Hills California,90210,21396,97198,Beverly Hills,CA
+16,Greenwich Connecticut,06831,15167,97111,Greenwich,CT
+17,Bel Air California,90077,10465,96584,Bel Air,CA
+18,Portola Valley California,94028,6595,96373,Portola Valley,CA
+19,Midtown East New York,10022,30642,95196,Midtown East,NY
+20,Wyarno Wyoming,82845,49,94109,Wyarno,WY
+21,Short Hills New Jersey,07078,12849,92940,Short Hills,NJ
+22,Altamahaw North Carolina,27202,24,91666,Altamahaw,NC
+23,Santa Monica California,90402,11492,91147,Santa Monica,CA
+24,Upper East Side New York,10021,102078,91064,Upper East Side,NY
+25,Gladwyne Pennsylvania,19035,4050,90940,Gladwyne,PA
+26,Upper West Side New York,10069,1403,90113,Upper West Side,NY
+27,Point Clear Alabama,36564,107,89571,Point Clear,AL
+28,Boston Massachusetts,02199,1005,88974,Boston,MA
+29,San Francisco California,94105,2058,88829,San Francisco,CA
+30,Glencoe Illinois,60022,8490,88126,Glencoe,IL
+31,BelvedereTiburon California,94920,13048,86992,BelvedereTiburon,CA
+32,Glencoe Arkansas,72539,318,86724,Glencoe,AR
+33,Century City California,90067,2524,86319,Century City,CA
+34,Atlanta Georgia,30327,21003,85883,Atlanta,GA
+35,Yorkville New York,10028,44987,85866,Yorkville,NY
+36,Houston Texas,77046,471,85070,Houston,TX
+37,Lake McDonald Montana,59921,2,85000,Lake McDonald,MT
+38,New York New York,10162,1726,84938,New York,NY
+39,Mullett Lake Michigan,49761,31,84692,Mullett Lake,MI
+40,Mc Afee New Jersey,07428,127,84595,Mc Afee,NJ
+41,Financial District New York,10280,6614,83639,Financial District,NY
+42,Yorklyn Delaware,19736,63,83524,Yorklyn,DE
+43,Chicago Illinois,60611,26522,82930,Chicago,IL
+44,Boston Massachusetts,02110,1428,82736,Boston,MA
+45,Boston Massachusetts,02109,3428,82689,Boston,MA
+46,Battery Park New York,10282,1574,82348,Battery Park,NY
+47,Far Hills New Jersey,07931,2766,82227,Far Hills,NJ
+48,New Canaan Connecticut,06840,19402,81934,New Canaan,CT
+49,Medina Washington,98039,3050,81926,Medina,WA
+50,Pacific Palisades California,90272,22538,81609,Pacific Palisades,CA
+51,Los Altos California,94022,18466,81257,Los Altos,CA
+52,San Francisco California,94123,22903,81044,San Francisco,CA
+53,Longboat Key Florida,34228,7603,80963,Longboat Key,FL
+54,Davis California,95618,643,80713,Davis,CA
+55,Alpine New Jersey,07620,1649,80621,Alpine,NJ
+56,Atlanta Georgia,30326,1075,80161,Atlanta,GA
+57,Upper West Side New York,10023,62206,79736,Upper West Side,NY
+58,Winnetka Illinois,60093,19528,79651,Winnetka,IL
+59,Weston Massachusetts,02493,11469,79640,Weston,MA
+60,Bacova Virginia,24412,89,79439,Bacova,VA
+61,Springboro Ohio,45066,17409,78786,Springboro,OH
+62,Boston Massachusetts,02108,3446,78771,Boston,MA
+63,Chappaqua New York,10514,12004,78647,Chappaqua,NY
+64,St Louis Missouri,63124,9819,78598,St Louis,MO
+65,ArdsleyonHudson New York,10503,115,78591,ArdsleyonHudson,NY
+66,Manhattan Valley New York,10024,61414,77824,Manhattan Valley,NY
+67,Essex Fells New Jersey,07021,2151,77787,Essex Fells,NJ
+68,Rye New York,10580,16737,77721,Rye,NY
+69,Glenbrook Nevada,89413,365,77639,Glenbrook,NV
+70,Darien Connecticut,06820,19607,77519,Darien,CT
+71,Captiva Florida,33924,339,77458,Captiva,FL
+72,Mill Neck New York,11765,732,77420,Mill Neck,NY
+73,Rex North Carolina,28378,49,77306,Rex,NC
+74,Indian Wells California,92210,3859,77302,Indian Wells,CA
+75,Newport Coast California,92657,5586,76870,Newport Coast,CA
+76,Corona del Mar California,92625,13407,76704,Corona del Mar,CA
+77,Wilmington Delaware,19807,7345,76651,Wilmington,DE
+78,Dallas Texas,75225,20314,76203,Dallas,TX
+79,Chicago Illinois,60601,5591,76157,Chicago,IL
+80,Lake Forest Illinois,60045,22248,75991,Lake Forest,IL
+81,Brentwood California,90049,33520,75965,Brentwood,CA
+82,Vero Beach Florida,32963,14077,75761,Vero Beach,FL
+83,Bedford New York,10506,5537,75723,Bedford,NY
+84,San Francisco California,94111,3335,75344,San Francisco,CA
+85,Weston Connecticut,06883,10037,74817,Weston,CT
+86,Paradise Valley Arizona,85253,17560,74605,Paradise Valley,AZ
+87,Pound Ridge New York,10576,4530,74127,Pound Ridge,NY
+88,Westport Connecticut,06880,25807,74064,Westport,CT
+89,Washington DC,20004,901,73803,Washington,DC
+90,Old Westbury New York,11568,3992,72932,Old Westbury,NY
+91,Yorkville New York,10128,59856,72691,Yorkville,NY
+92,Teterboro New Jersey,07608,18,72613,Teterboro,NJ
+93,Old Greenwich Connecticut,06870,7092,72317,Old Greenwich,CT
+94,Austin Texas,78730,4885,72110,Austin,TX
+95,Bloomfield Hills Michigan,48302,16409,71985,Bloomfield Hills,MI
+96,Norwalk Connecticut,06853,3466,71642,Norwalk,CT
+97,Rumson New Jersey,07760,9665,71585,Rumson,NJ
+98,Corolla North Carolina,27927,648,71301,Corolla,NC
+99,Gates Mills Ohio,44040,2883,71016,Gates Mills,OH
+100,Chicago Illinois,60606,1682,70878,Chicago,IL
