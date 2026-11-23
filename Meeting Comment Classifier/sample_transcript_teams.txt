@@ -1,0 +1,41 @@
+Alex: Good morning, everyone. Can you all hear me okay?
+Jordan: Yes, loud and clear.
+Sam: Morning. I can hear you.
+Taylor: Hi all, thanks for having me.
+Alex: Great. Quick agenda for today: the loyalty app pilot, the data setup, and the timeline. Sam, can you give us a status update on the environment?
+Sam: Sure. The AWS host is up and running. I sent everyone the SSH details by email this morning, and your IP addresses are on the firewall allow list. Python and SQL are both installed on the Linux box.
+Alex: Perfect, thanks Sam.
+Taylor: What does the pilot actually cover? I want to make sure my team understands it.
+Alex: It covers about 2,000 loyalty members at three stores. We track visits, spend per visit, and offer redemption for 90 days.
+Jordan: I think we should start with a small set of requirements for the MVP. If we try to build every feature at once, we will slip the deadline.
+Taylor: That makes sense to me.
+Sam: I'm concerned about the cost if we leave the AWS host running all month. It might be better to shut it down on weekends.
+Alex: Good point. What if we set a monthly budget cap and get an alert when we hit 80 percent of it?
+Jordan: Yeah.
+Taylor: From the Maple and Main side, the store managers will want something simple. Could we email them a one-page summary every Monday?
+Alex: Sure, we can do that.
+Jordan: On the data side, the member file has about 4 percent duplicate records. We need to fix the matching logic before we load it into the CRM. Otherwise the visit counts will be wrong, and that is a quality risk for the whole pilot.
+Sam: I can write a Python script to remove the duplicates. It should only take a day.
+Alex: Let's do that. Sam owns the cleanup and Jordan reviews it.
+Taylor: How many people do you have on this right now?
+Alex: Three of us, about half time each.
+Taylor: Honestly, that feels light. You may want more capacity on the team once the store data starts coming in.
+Alex: Fair. Maybe we can borrow someone from the reporting team in month two.
+Jordan: I'd suggest we also define what churn means for a loyalty member. My proposal is no visits for 30 days.
+Sam: Thirty days seems short for people who only shop once a month.
+Jordan: Good point. Then 45 days.
+Taylor: Is the app the same for every store?
+Alex: Yes, same app, same offers.
+Sam: One more thing on architecture. I recommend we keep the scoring model separate from the app, so we can update it without a new release of the platform.
+Alex: Agreed. Should we use machine learning for the offer matching, or start with simple rules?
+Jordan: Start with rules. We can test machine learning once we have a few months of data and real insights about what members redeem.
+Taylor: Okay. I like that.
+Alex: Let's talk timeline. The pilot launches March 2, so the data has to be ready by February 20.
+Sam: That's tight but doable.
+Jordan: It would be good to have a dry run the week before, just to catch any bugs in the weekly report.
+Taylor: Sounds good.
+Alex: Taylor, anything else from the store side?
+Taylor: Just one. Our consulting partner charges by the hour, so let's keep the scope tight and avoid change requests after launch.
+Alex: Understood. I think so too.
+Jordan: How about we put the open questions in a shared tracker tool so nothing gets lost?
+Alex: Yes. I'll set that up today. Thanks, everyone. Talk next week.

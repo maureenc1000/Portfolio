@@ -1,0 +1,128 @@
+Loyalty App Pilot: Planning Sync (FICTIONAL SAMPLE MEETING)
+All people, companies and details in this transcript are made up for demonstration.
+
+Speaker 1  00:02
+Good morning, everyone. Can you all hear me okay?
+
+Speaker 2  00:06
+Yes, loud and clear.
+
+Speaker 3  00:08
+Morning. I can hear you.
+
+Speaker 4  00:11
+Hi all, thanks for having me.
+
+Speaker 1  00:15
+Great. Quick agenda for today: the loyalty app pilot, the data setup, and the timeline. Sam, can you give us a status update on the environment?
+
+Speaker 3  00:24
+Sure. The AWS host is up and running. I sent everyone the SSH details by email this morning,
+and your IP addresses are on the firewall allow list. Python and SQL are both installed on the Linux box.
+
+Speaker 1  00:41
+Perfect, thanks Sam.
+
+Speaker 4  00:44
+What does the pilot actually cover? I want to make sure my team understands it.
+
+Speaker 1  00:50
+It covers about 2,000 loyalty members at three stores. We track visits, spend per visit, and offer redemption for 90 days.
+
+Speaker 2  01:05
+I think we should start with a small set of requirements for the MVP. If we try to build every feature at once, we will slip the deadline.
+
+Speaker 4  01:16
+That makes sense to me.
+
+Speaker 3  01:19
+I'm concerned about the cost if we leave the AWS host running all month. It might be better to shut it down on weekends.
+
+Speaker 1  01:31
+Good point. What if we set a monthly budget cap and get an alert when we hit 80 percent of it?
+
+Speaker 2  01:40
+Yeah.
+
+Speaker 4  01:42
+From the Maple and Main side, the store managers will want something simple. Could we email them a one-page summary every Monday?
+
+Speaker 1  01:53
+Sure, we can do that.
+
+Speaker 2  01:56
+On the data side, the member file has about 4 percent duplicate records. We need to fix the matching logic before we load it into the CRM. Otherwise the visit counts will be wrong, and that is a quality risk for the whole pilot.
+
+Speaker 3  02:12
+I can write a Python script to remove the duplicates. It should only take a day.
+
+Speaker 1  02:18
+Let's do that. Sam owns the cleanup and Jordan reviews it.
+
+Speaker 4  02:25
+How many people do you have on this right now?
+
+Speaker 1  02:28
+Three of us, about half time each.
+
+Speaker 4  02:31
+Honestly, that feels light. You may want more capacity on the team once the store data starts coming in.
+
+Speaker 1  02:42
+Fair. Maybe we can borrow someone from the reporting team in month two.
+
+Speaker 2  02:49
+I'd suggest we also define what churn means for a loyalty member. My proposal is no visits for 30 days.
+
+Speaker 3  02:58
+Thirty days seems short for people who only shop once a month.
+
+Speaker 2  03:03
+Good point. Then 45 days.
+
+Speaker 4  03:06
+Is the app the same for every store?
+
+Speaker 1  03:09
+Yes, same app, same offers.
+
+Speaker 3  03:12
+One more thing on architecture. I recommend we keep the scoring model separate from the app, so we can update it without a new release of the platform.
+
+Speaker 1  03:22
+Agreed. Should we use machine learning for the offer matching, or start with simple rules?
+
+Speaker 2  03:30
+Start with rules. We can test machine learning once we have a few months of data and real insights about what members redeem.
+
+Speaker 4  03:40
+Okay. I like that.
+
+Speaker 1  03:43
+Let's talk timeline. The pilot launches March 2, so the data has to be ready by February 20.
+
+Speaker 3  03:51
+That's tight but doable.
+
+Speaker 2  03:54
+It would be good to have a dry run the week before, just to catch any bugs in the weekly report.
+
+Speaker 4  04:02
+Sounds good.
+
+Speaker 1  04:04
+Taylor, anything else from the store side?
+
+Speaker 4  04:07
+Just one. Our consulting partner charges by the hour, so let's keep the scope tight and avoid change requests after launch.
+
+Speaker 1  04:15
+Understood. I think so too.
+
+Speaker 2  04:18
+How about we put the open questions in a shared tracker tool so nothing gets lost?
+
+Speaker 1  04:24
+Yes. I'll set that up today. Thanks, everyone. Talk next week.
+
+Transcribed by Otter.ai (sample formatting only)

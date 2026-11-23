@@ -1,0 +1,36 @@
+speaker,timestamp,category,matched_keyword,line_text
+Speaker 3,00:24,Infrastructure/Access,host,"Sure. The AWS host is up and running. I sent everyone the SSH details by email this morning, and your IP addresses are on the firewall allow list. Python and SQL are both installed on the Linux box."
+Speaker 3,00:24,Infrastructure/Access,ssh,"Sure. The AWS host is up and running. I sent everyone the SSH details by email this morning, and your IP addresses are on the firewall allow list. Python and SQL are both installed on the Linux box."
+Speaker 3,00:24,Infrastructure/Access,aws,"Sure. The AWS host is up and running. I sent everyone the SSH details by email this morning, and your IP addresses are on the firewall allow list. Python and SQL are both installed on the Linux box."
+Speaker 3,00:24,Infrastructure/Access,linux,"Sure. The AWS host is up and running. I sent everyone the SSH details by email this morning, and your IP addresses are on the firewall allow list. Python and SQL are both installed on the Linux box."
+Speaker 3,00:24,Infrastructure/Access,firewall,"Sure. The AWS host is up and running. I sent everyone the SSH details by email this morning, and your IP addresses are on the firewall allow list. Python and SQL are both installed on the Linux box."
+Speaker 3,00:24,Infrastructure/Access,ip addresses,"Sure. The AWS host is up and running. I sent everyone the SSH details by email this morning, and your IP addresses are on the firewall allow list. Python and SQL are both installed on the Linux box."
+Speaker 3,00:24,Infrastructure/Access,allow list,"Sure. The AWS host is up and running. I sent everyone the SSH details by email this morning, and your IP addresses are on the firewall allow list. Python and SQL are both installed on the Linux box."
+Speaker 3,00:24,Technical Skills,python,"Sure. The AWS host is up and running. I sent everyone the SSH details by email this morning, and your IP addresses are on the firewall allow list. Python and SQL are both installed on the Linux box."
+Speaker 3,00:24,Technical Skills,sql,"Sure. The AWS host is up and running. I sent everyone the SSH details by email this morning, and your IP addresses are on the firewall allow list. Python and SQL are both installed on the Linux box."
+Speaker 3,00:24,Technical Skills,linux,"Sure. The AWS host is up and running. I sent everyone the SSH details by email this morning, and your IP addresses are on the firewall allow list. Python and SQL are both installed on the Linux box."
+Speaker 1,00:50,Client Background (Maple and Main),stores,"It covers about 2,000 loyalty members at three stores. We track visits, spend per visit, and offer redemption for 90 days."
+Speaker 1,00:50,Client Background (Maple and Main),loyalty members,"It covers about 2,000 loyalty members at three stores. We track visits, spend per visit, and offer redemption for 90 days."
+Speaker 2,01:05,Requirements/MVP,requirements,"I think we should start with a small set of requirements for the MVP. If we try to build every feature at once, we will slip the deadline."
+Speaker 2,01:05,Requirements/MVP,mvp,"I think we should start with a small set of requirements for the MVP. If we try to build every feature at once, we will slip the deadline."
+Speaker 2,01:05,Requirements/MVP,feature,"I think we should start with a small set of requirements for the MVP. If we try to build every feature at once, we will slip the deadline."
+Speaker 3,01:19,Infrastructure/Access,host,I'm concerned about the cost if we leave the AWS host running all month. It might be better to shut it down on weekends.
+Speaker 3,01:19,Infrastructure/Access,aws,I'm concerned about the cost if we leave the AWS host running all month. It might be better to shut it down on weekends.
+Speaker 3,01:19,Costs/Budget,cost,I'm concerned about the cost if we leave the AWS host running all month. It might be better to shut it down on weekends.
+Speaker 1,01:31,Costs/Budget,budget,Good point. What if we set a monthly budget cap and get an alert when we hit 80 percent of it?
+Speaker 1,01:31,Costs/Budget,budget cap,Good point. What if we set a monthly budget cap and get an alert when we hit 80 percent of it?
+Speaker 4,01:42,Client Background (Maple and Main),maple and main,"From the Maple and Main side, the store managers will want something simple. Could we email them a one-page summary every Monday?"
+Speaker 4,01:42,Client Background (Maple and Main),store managers,"From the Maple and Main side, the store managers will want something simple. Could we email them a one-page summary every Monday?"
+Speaker 2,01:56,Business Intelligence/AI,matching,"On the data side, the member file has about 4 percent duplicate records. We need to fix the matching logic before we load it into the CRM. Otherwise the visit counts will be wrong, and that is a quality risk for the whole pilot."
+Speaker 2,01:56,Business Intelligence/AI,crm,"On the data side, the member file has about 4 percent duplicate records. We need to fix the matching logic before we load it into the CRM. Otherwise the visit counts will be wrong, and that is a quality risk for the whole pilot."
+Speaker 3,02:12,Technical Skills,python,I can write a Python script to remove the duplicates. It should only take a day.
+Speaker 3,03:12,Business Intelligence/AI,scoring model,"One more thing on architecture. I recommend we keep the scoring model separate from the app, so we can update it without a new release of the platform."
+Speaker 3,03:12,Requirements/MVP,architecture,"One more thing on architecture. I recommend we keep the scoring model separate from the app, so we can update it without a new release of the platform."
+Speaker 1,03:22,Business Intelligence/AI,matching,"Agreed. Should we use machine learning for the offer matching, or start with simple rules?"
+Speaker 1,03:22,Business Intelligence/AI,machine learning,"Agreed. Should we use machine learning for the offer matching, or start with simple rules?"
+Speaker 2,03:30,Business Intelligence/AI,insights,Start with rules. We can test machine learning once we have a few months of data and real insights about what members redeem.
+Speaker 2,03:30,Business Intelligence/AI,machine learning,Start with rules. We can test machine learning once we have a few months of data and real insights about what members redeem.
+Speaker 4,04:07,Requirements/MVP,scope,"Just one. Our consulting partner charges by the hour, so let's keep the scope tight and avoid change requests after launch."
+Speaker 4,04:07,Client Background (Maple and Main),consulting partner,"Just one. Our consulting partner charges by the hour, so let's keep the scope tight and avoid change requests after launch."
+Speaker 4,04:07,Costs/Budget,by the hour,"Just one. Our consulting partner charges by the hour, so let's keep the scope tight and avoid change requests after launch."
+Speaker 4,04:07,Costs/Budget,charges,"Just one. Our consulting partner charges by the hour, so let's keep the scope tight and avoid change requests after launch."
